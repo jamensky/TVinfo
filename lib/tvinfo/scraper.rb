@@ -3,7 +3,7 @@ require "open-uri"
 require "pry"
 
 class Scraper
- attr_accessor :show, :ratings, :description, :cast
+ attr_accessor :title, :ratings, :description, :cast
 
  #@@doc = Nokogiri::HTML(open("https://www.listal.com/list/television-giso6150"))
 
@@ -14,5 +14,3 @@ class Scraper
  end
 
 end
-
-Scraper.new.scrape

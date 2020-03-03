@@ -1,13 +1,13 @@
 
 class Tv_show
- attr_accessor :show, :ratings, :eppisodes, :cast, :director
+ attr_accessor :title, :ratings, :description, :cast, :director
 
  @@all = []
 
- def new
-   @show = show
+ def initialize
+   @title = title
    @ratings = ratings
-   @eppisodes = eppisodes
+   @description = description
    @cast = cast
    @director = director
    @@all << self
