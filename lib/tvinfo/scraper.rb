@@ -13,11 +13,11 @@ class Scraper
     new_show = Tv_show.new
     new_show.title = show.text
     binding.pry
-
+=begin
     new_show.ratings =
     new_show
     new_show
-
+=end
 
    end
  end

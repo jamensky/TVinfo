@@ -4,5 +4,5 @@ require_relative "tvinfo/scraper"
 require_relative "tvinfo/cli"
 
 
-
+#Cli.start
 Scraper.scrape

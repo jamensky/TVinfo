@@ -1,6 +1,6 @@
 class Cli
 
- def start
+ def self.start
    puts <<-welcome
     Welcome to TV-info!
 
@@ -8,11 +8,16 @@ class Cli
 
     Let's start by taking your name...
 
-
-
-
    welcome
+
+   @name = gets
+
+   puts "welcome #{@name}!"
 
  end
 
-end 
+ def self.options
+
+ end
+
+end
