@@ -17,7 +17,7 @@ class Cli
  end
 
  def self.options
-   Tv_show.
+   #Tv_show.
  end
 
 end
